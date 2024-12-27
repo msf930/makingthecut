@@ -307,7 +307,13 @@ export default function Services() {
                         <div className={styles.serviceCTACont}>
                             <div className={styles.serviceCTAText}>
                                 <h3>Create The Yard You <br/> Deserve!</h3>
-                                <button className={styles.heroBtn}>Get A Free Estimate</button>
+
+                                <button className={styles.heroBtn}>
+                                    <a href="/contact">
+                                        Get A Free Estimate
+                                    </a>
+                                </button>
+
                             </div>
                         </div>
                     </div>
