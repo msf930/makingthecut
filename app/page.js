@@ -51,6 +51,7 @@ export default function Home() {
                           >
                               <h1 className={styles.titleLeft}>Landscaping <br/> Services</h1>
                           </motion.div>
+                            <div className={styles.horizontalLine}></div>
                           {/*Hero right*/}
                           <motion.div
                               initial={{x: -100}}

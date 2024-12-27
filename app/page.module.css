@@ -33,7 +33,7 @@
         font-weight: 700;
     }
     .horizontalLineMobile{
-        width: calc(100vw - 40px);
+        width: 270px;
         /*height: 3px;*/
         background-color: var(--colorB);
         margin-top: 20px;
@@ -380,6 +380,16 @@
         font-size: var(--hero-font);
         font-weight: 700;
     }
+    .horizontalLine{
+        display: block;
+        width: 50%;
+        min-width: 400px;
+        /*height: 3px;*/
+        background-color: var(--colorB);
+        margin-top: 20px;
+        padding-top: 2px;
+        position: relative;
+    }
 
     .titleRightCont{
         display: flex;
@@ -430,9 +440,7 @@
     .heroContMobile{
         display: none;
     }
-    .horizontalLine{
-        display: none;
-    }
+
     .content{
         position: relative;
         height: 3500px;
