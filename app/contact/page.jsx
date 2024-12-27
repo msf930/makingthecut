@@ -70,7 +70,7 @@ export default function Contact() {
                                         <div className={styles.addressGrid}>
                                             <input name="City" id="address" type="text" autoComplete="address-level2" placeholder="City"/>
                                             <input name="State" id="address" type="text" autoComplete="address-level1" placeholder="State"/>
-                                            <input name="Zip" id="address" type="text" autoComplete="postal-code" placeholder="Zip Code"/>
+                                            <input name="Zip" id="address" type="text" autoComplete="postal-code" placeholder="Zip"/>
                                         </div>
                                     </div>
                                 </div>
