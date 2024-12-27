@@ -1,0 +1,23 @@
+@media (min-width: 640px){
+    .parallax{
+        left: 0;
+        width: 100vw;
+        height: 1000px;
+        overflow: hidden;
+        position: relative;
+        display: grid;
+        place-items: center;
+    }
+}
+
+@media (min-width: 1050px){
+    .parallax{
+        left: 0;
+        width: calc(100vw - 200px);
+        height: 1000px;
+        overflow: hidden;
+        position: relative;
+        display: grid;
+        place-items: center;
+    }
+}
