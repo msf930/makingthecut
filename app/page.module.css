@@ -1,0 +1,934 @@
+
+
+@media (max-width: 640px) {
+    .page{
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 200;
+    }
+
+    .heroCont{
+        display: none;
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 0;
+
+    }
+    .heroTextContMobile{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        padding-bottom: 80px;
+        height: auto;
+    }
+    .heroMobile{
+        padding-top: 60px;
+        padding-left: 20px;
+    }
+    .titleLeftMobile{
+        color: var(--white-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .horizontalLineMobile{
+        width: calc(100vw - 40px);
+        /*height: 3px;*/
+        background-color: var(--colorB);
+        margin-top: 20px;
+        padding-top: 2px;
+        position: relative;
+    }
+
+    .titleRightContMobile{
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        height: 100%;
+    }
+    .verticalLine {
+        display: none;
+        width: 3px;
+        height: 120px;
+        background-color: var(--colorB); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 60px;
+    }
+    .titleRightItemsMobile{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        width: 300px;
+    }
+    .titleRightMobile{
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+    .titleRightBtnContMobile {
+        display: flex;
+        flex-direction: row;
+        padding-top: 30px;
+        justify-content: center;
+        gap: 20px;
+        height: 60px;
+        width: calc(100vw - 40px);
+    }
+    .heroBtnMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border:  2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 20px 20px;
+
+    }
+    .heroContMobile{
+        display: block;
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 0;
+    }
+    .heroImg{
+        position: relative;
+        width: 100vw;
+        height: 300px;
+    }
+    .content{
+        display: none;
+        position: relative;
+        height: 3500px;
+        /*height: 220vh;*/
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .contentMobile{
+        position: relative;
+        height: auto;
+        /*height: 220vh;*/
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .contentTextContMobile{
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        height: 165px;
+        width: calc(100vw - 20px);
+    }
+    .contentTextContMobile h3{
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        font-weight: 700;
+        width: calc(100vw - 20px);
+    }
+    .contentTextContMobile p{
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .contentGrassContMobile {
+        position: relative;
+        top: 20px;
+    }
+    .grassImgMobileCont{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        width: 100vw;
+        padding-right: 0;
+    }
+    .grassImgMobile{
+        position: relative;
+        width: 200px;
+        height: 300px;
+    }
+    .contentGardenContMobile{
+        position: relative;
+        margin-top: 50px;
+        width: 100vw;
+        height: 450px;
+    }
+    .contentSnowContMobile {
+        position: relative;
+        width: 100vw;
+        display: flex;
+        justify-content: end;
+    }
+    .snowImgMobile{
+        position: absolute;
+        top: -100px;
+        width: 200px;
+        height: 300px;
+    }
+    .imageMotionCTAMobile{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 60px;
+        width: 180px;
+        background-color: var(--colorD);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-font);
+    }
+    .imageMotionCTAMobile p{
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+
+    }
+    .imageMotionCTAMobileLand{
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 60px;
+        width: 180px;
+        background-color: var(--colorD);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-font);
+    }
+    .imageMotionCTAMobileLand p{
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+
+    }
+    .contentProcessContMobile{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding-top: 250px;
+        padding-bottom: 50px;
+    }
+    .whyCont{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .whyTitleCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 130px;
+    }
+    .whyTitleCont h3{
+        color: var(--accent-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .whyItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .whyItemRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4%;
+    }
+    .whyIcon{
+        filter: invert(25%) sepia(17%) saturate(731%) hue-rotate(97deg) brightness(96%) contrast(88%);
+    }
+    .whyItemLong{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 48%;
+        height: 200px;
+        background-color: var(--colorB);
+        padding: 20px;
+        gap: 10px;
+    }
+    .whyItemTitleCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .whyItemTitleCont h3{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+        font-weight: 700;
+    }
+    .whyItemLong p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyItemShort{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 48%;
+        height: 200px;
+        background-color: var(--colorB);
+        padding: 20px 10px;
+        gap: 10px
+    }
+    .whyItemShort p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyBottom{
+        height: 120px;
+    }
+    .testimonialsCont{
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: var(--light-bg);
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .testLineTop{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+    .testimonialsTitleCont{
+        font-size: var(--header-sm-font);
+        padding-top: 40px;
+        padding-left: 20px;
+        color: var(--dark-font);
+        font-weight: 600;
+    }
+    .testimonialsItemCont{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        gap: 20px;
+        width: 100%;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .testimonialName{
+        font-size: var(--body-md-font);
+        color: var(--dark-font);
+        font-weight: 700;
+        width: 100%;
+    }
+    .testimonialIcon{
+        display: none;
+        width: 20%;
+    }
+    .testimonialQuote{
+        width: 100%;
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .testLine{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 640px) {
+    .page{
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 200;
+    }
+
+    .heroCont{
+        height: 1500px;
+        background-color: var(--dark-bg);
+        padding-left: 0;
+
+    }
+    .heroTextCont{
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 650px;
+    }
+    .hero{
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+    .titleLeft{
+        color: var(--white-font);
+        font-size: var(--hero-font);
+        font-weight: 700;
+    }
+
+    .titleRightCont{
+        display: flex;
+        flex-direction: row;
+        padding-top: 40px;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        height: 100%;
+    }
+    .verticalLine {
+        display: none;
+        width: 3px;
+        height: 120px;
+        background-color: var(--colorB); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 60px;
+    }
+    .titleRightItems{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        width: 300px;
+    }
+    .titleRight{
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+    .titleRightBtnCont {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        justify-content: space-between;
+        height: 50%;
+    }
+    .heroBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border:  2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 20px 20px;
+
+    }
+    .heroContMobile{
+        display: none;
+    }
+    .horizontalLine{
+        display: none;
+    }
+    .content{
+        position: relative;
+        height: 3500px;
+        /*height: 220vh;*/
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .contentTextCont{
+        display: flex;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-bottom: 200px;
+        height: 165px;
+    }
+    .contentTextCont h3{
+        color: var(--dark-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .contentTextCont p{
+        color: var(--dark-font);
+        font-size: var(--body-lg-font);
+        font-weight: 500;
+        width: 380px;
+        padding-top: 20px;
+    }
+    .contentGrassCont {
+        position: absolute;
+        right: 10vw;
+        top: 600px;
+    }
+    .grassImg{
+        position: relative;
+        width: 400px;
+        height: 600px;
+    }
+    .contentGardenCont{
+        position: absolute;
+        left: 100px;
+        top: 1200px;
+    }
+    .contentSnowCont {
+        position: absolute;
+        right: 200px;
+        top: 1850px;
+    }
+    .snowImg{
+        position: relative;
+        width: 300px;
+        height: 450px;
+    }
+    .imageMotionCTA{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 80%;
+        background-color: var(--colorD);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-font);
+    }
+    .imageMotionCTA p{
+        font-size: var(--body-md-font);
+        font-weight: 500;
+
+    }
+    .contentProcessCont{
+        position: absolute;
+        right: 13vw;
+        top: 2400px;
+    }
+    .contentMobile{
+        display: none;
+    }
+    .whyCont{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .whyTitleCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 165px;
+    }
+    .whyTitleCont h3{
+        color: var(--accent-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .whyItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .whyItemRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4%;
+    }
+    .whyIcon{
+        filter: invert(25%) sepia(17%) saturate(731%) hue-rotate(97deg) brightness(96%) contrast(88%);
+    }
+    .whyItemLong{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 56%;
+        height: 114px;
+        background-color: var(--colorB);
+        padding: 20px;
+        gap: 10px;
+    }
+    .whyItemTitleCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .whyItemTitleCont h3{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+        font-weight: 700;
+    }
+    .whyItemLong p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyItemShort{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 40%;
+        height: 114px;
+        background-color: var(--colorB);
+        padding: 20px 10px;
+        gap: 10px
+    }
+    .whyItemShort p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyBottom{
+        height: 165px;
+    }
+    .testimonialsCont{
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: var(--light-bg);
+        padding-left: 20px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .testLineTop{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+    .testimonialsTitleCont{
+        font-size: var(--header-sm-font);
+        padding-top: 40px;
+        padding-left: 60px;
+        color: var(--dark-font);
+        font-weight: 600;
+    }
+    .testimonialsItemCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .testimonialName{
+        font-size: var(--body-md-font);
+        color: var(--dark-font);
+        font-weight: 700;
+        width: 20%;
+    }
+    .testimonialIcon{
+        width: 20%;
+    }
+    .testimonialQuote{
+        width: 60%;
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .testLine{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 1050px) {
+    .page{
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+    .navCont{
+        z-index: 200;
+    }
+
+    .heroCont{
+        height: 1266px;
+        background-color: var(--dark-bg);
+        padding-left: 100px;
+
+    }
+    .heroTextCont{
+        display: flex;
+        flex-direction: row;
+        padding-top: 200px;
+        padding-bottom: 200px;
+        height: 165px;
+    }
+    .hero{
+        padding-top: 100px;
+        padding-left: 0;
+    }
+    .titleLeft{
+        color: var(--white-font);
+        font-size: var(--hero-font);
+        font-weight: 700;
+    }
+
+    .titleRightCont{
+        display: flex;
+        flex-direction: row;
+        padding-top: 50px;
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        height: 100%;
+    }
+    .verticalLine {
+        display: block;
+        width: 3px;
+        height: 120px;
+        background-color: var(--colorB); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 60px;
+    }
+    .titleRightItems{
+        display: flex;
+        flex-direction: column;
+        padding-left: 50px;
+        width: 350px;
+    }
+    .titleRight{
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+    .titleRightBtnCont {
+        display: flex;
+        flex-direction: row;
+        padding-top: 20px;
+        justify-content: space-between;
+        height: 100%;
+    }
+    .heroBtn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border:  2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 20px 20px;
+
+    }
+    .heroContMobile{
+        display: none;
+    }
+    .horizontalLine{
+        display: none;
+    }
+    .content{
+        position: relative;
+        height: calc(1030px + 600px + 500px);
+        /*height: 220vh;*/
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .contentTextCont{
+        display: flex;
+        flex-direction: column;
+        padding-top: 300px;
+        padding-bottom: 200px;
+        height: 165px;
+    }
+    .contentTextCont h3{
+        color: var(--dark-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .contentTextCont p{
+        color: var(--dark-font);
+        font-size: var(--body-lg-font);
+        font-weight: 500;
+        width: 380px;
+        padding-top: 20px;
+    }
+    .contentGrassCont {
+        position: absolute;
+        right: 10vw;
+        top: 300px;
+    }
+    .grassImg{
+        position: relative;
+        width: 400px;
+        height: 600px;
+    }
+    .contentGardenCont{
+        position: absolute;
+        left: 100px;
+        top: 600px;
+    }
+    .contentSnowCont {
+        position: absolute;
+        right: calc(150px + 350px  + 15vw);
+        top: 1250px;
+    }
+    .snowImg{
+        position: relative;
+        width: 300px;
+        height: 450px;
+    }
+    .imageMotionCTA{
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        height: 100px;
+        width: 80%;
+        background-color: var(--colorD);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--white-font);
+    }
+    .imageMotionCTA p{
+        font-size: var(--body-md-font);
+        font-weight: 500;
+
+    }
+    .contentProcessCont{
+        position: absolute;
+        right: 13vw;
+        top: 1000px;
+    }
+    .contentMobile{
+        display: none;
+    }
+    .whyCont{
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 130px;
+        padding-right: 130px;
+    }
+    .whyTitleCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        height: 165px;
+    }
+    .whyTitleCont h3{
+        color: var(--accent-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+    .whyItemCont{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .whyItemRow{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4%;
+    }
+    .whyIcon{
+        filter: invert(25%) sepia(17%) saturate(731%) hue-rotate(97deg) brightness(96%) contrast(88%);
+    }
+    .whyItemLong{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 56%;
+        height: 114px;
+        background-color: var(--colorB);
+        padding: 20px 20px 20px 40px;
+        gap: 10px;
+    }
+    .whyItemTitleCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+    .whyItemTitleCont h3{
+        font-size: var(--body-md-font);
+        color: var(--dark-font);
+        font-weight: 700;
+    }
+    .whyItemLong p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyItemShort{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 40%;
+        height: 114px;
+        background-color: var(--colorB);
+        padding: 20px 20px 20px 40px;
+        gap: 10px
+    }
+    .whyItemShort p{
+        font-size: var(--body-sm-font);
+        color: var(--dark-font);
+    }
+    .whyBottom{
+        height: 165px;
+    }
+    .testimonialsCont{
+        position: relative;
+        width: 100vw;
+        height: auto;
+        background-color: var(--light-bg);
+        padding-left: 100px;
+        padding-right: 100px;
+        display: flex;
+        flex-direction: column;
+    }
+    .testLineTop{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+    .testimonialsTitleCont{
+        font-size: var(--header-sm-font);
+        padding-top: 40px;
+        padding-left: 60px;
+        color: var(--dark-font);
+        font-weight: 600;
+    }
+    .testimonialsItemCont{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    .testimonialName{
+        font-size: var(--body-md-font);
+        color: var(--dark-font);
+        font-weight: 700;
+        width: 20%;
+    }
+    .testimonialIcon{
+        width: 20%;
+    }
+    .testimonialQuote{
+        width: 60%;
+        font-size: var(--body-md-font);
+        color: var(--dark-font);
+    }
+    .testLine{
+        width: 100%;
+        height: 2px;
+        background-color: var(--colorD);
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,361 @@
+@media (max-width: 640px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 10px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+        padding-bottom: 60px;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--header-md-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .missionCont {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 1000px;
+    }
+
+    .missionTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 570px;
+
+    }
+
+    .missionTextCont h3 {
+        color: var(--dark-font);
+        font-size: var(--header-sm-font);
+        font-weight: 700;
+    }
+
+    .missionTextCont p {
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        width: calc(100vw - 20px);
+        padding-top: 20px;
+    }
+
+    .contentGrassCont {
+        position: absolute;
+        right: 10px;
+        top: 60px;
+    }
+
+    .grassImg {
+        position: relative;
+        width: 350px;
+        height: 450px;
+    }
+
+    .teamCont {
+        position: relative;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 650px;
+        background-color: var(--dark-bg);
+    }
+
+    .contentHouse2Cont {
+        position: absolute;
+        left: 20px;
+        top: -100px;
+    }
+
+    .house2Img {
+        position: relative;
+        width: 380px;
+        height: 280px;
+    }
+
+    .teamTextCont {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top: 200px;
+    }
+
+    .teamTextCont h3 {
+        color: var(--accent-font);
+        font-size: var(--header-sm-font);
+        font-weight: 700;
+    }
+
+    .teamTextCont p {
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        width: calc(100vw - 20px);
+        padding-top: 20px;
+    }
+
+}
+
+@media (min-width: 640px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 40px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 250px;
+        padding-bottom: 60px;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--hero-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .missionCont {
+        position: relative;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 1000px;
+    }
+
+    .missionTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 570px;
+
+    }
+
+    .missionTextCont h3 {
+        color: var(--dark-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+
+    .missionTextCont p {
+        color: var(--dark-font);
+        font-size: var(--body-lg-font);
+        font-weight: 500;
+        width: 380px;
+        padding-top: 20px;
+    }
+
+    .contentGrassCont {
+        position: absolute;
+        right: 100px;
+        top: 60px;
+    }
+
+    .grassImg {
+        position: relative;
+        width: 350px;
+        height: 450px;
+    }
+
+    .teamCont {
+        position: relative;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: 650px;
+        background-color: var(--dark-bg);
+    }
+
+    .contentHouse2Cont {
+        position: absolute;
+        left: 20px;
+        top: -100px;
+    }
+
+    .house2Img {
+        position: relative;
+        width: 380px;
+        height: 280px;
+    }
+
+    .teamTextCont {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 10px;
+        top: 200px;
+    }
+
+    .teamTextCont h3 {
+        color: var(--accent-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+
+    .teamTextCont p {
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        width: 500px;
+        padding-top: 20px;
+    }
+
+}
+
+@media (min-width: 1050px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: 550px;
+        background-color: var(--dark-bg);
+        padding-left: 100px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 250px;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--hero-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .missionCont {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        height: 650px;
+    }
+
+    .missionTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 150px;
+        width: 45%;
+        padding-left: 5%;
+
+    }
+
+    .missionTextCont h3 {
+        width: 100%;
+        max-width: 500px;
+        text-align: start;
+        color: var(--dark-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+    }
+
+    .missionTextCont p {
+        text-align: start;
+        color: var(--dark-font);
+        font-size: var(--body-lg-font);
+        font-weight: 500;
+        width: 100%;
+        max-width: 500px;
+        padding-top: 20px;
+    }
+
+    .contentGrassCont {
+        position: absolute;
+        right: 100px;
+        top: 40px;
+    }
+
+    .grassImg {
+        position: relative;
+        width: 450px;
+        height: 600px;
+    }
+
+    .teamCont {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        height: 650px;
+        background-color: var(--dark-bg);
+    }
+
+    .contentHouse2Cont {
+        position: absolute;
+        left: 100px;
+        top: -100px;
+    }
+
+    .house2Img {
+        position: relative;
+        width: 40%;
+        height: 440px;
+    }
+
+    .teamTextCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        right: 5%;
+        top: 100px;
+        width: 45%;
+
+    }
+
+    .teamTextCont h3 {
+        color: var(--accent-font);
+        font-size: var(--header-md-font);
+        font-weight: 700;
+        width: 100%;
+        max-width: 600px;
+        text-align: start;
+
+    }
+
+    .teamTextCont p {
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        width: 100%;
+        max-width: 600px;
+        padding-top: 20px;
+    }
+
+}

@@ -1,0 +1,37 @@
+.parallax{
+    left: 0;
+    top: 30px;
+    width: 400px;
+    height: 550px;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    display: grid;
+    place-items: center;
+
+}
+.parallaxImg{
+    position: absolute;
+    width: auto;
+    height: 280%;
+    inset: 0;
+    z-index: 1;
+}
+.imageMotionCTA{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 80%;
+    background-color: var(--colorD);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-font);
+    z-index: 3;
+}
+.imageMotionCTA p{
+    font-size: var(--body-md-font);
+    font-weight: 500;
+
+}

@@ -1,0 +1,817 @@
+.textInputItemAddress input:-webkit-autofill,
+.textInputItemAddress input:-webkit-autofill:hover,
+.textInputItemAddress input:-webkit-autofill:focus,
+.textInputItemAddress input:-webkit-autofill:active,
+.textInputItem input:-webkit-autofill,
+.textInputItem input:-webkit-autofill:hover,
+.textInputItem input:-webkit-autofill:focus,
+.textInputItem input:-webkit-autofill:active
+{
+    -webkit-box-shadow: 0 0 0 30px var(--colorE) inset !important;
+    -webkit-text-fill-color: var(--white-font) !important;
+}
+
+@media (max-width: 640px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: auto;
+        background-color: var(--dark-bg);
+        padding-left: 20px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 200px;
+        padding-bottom: 60px;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--header-md-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .contentCont {
+        position: relative;
+        padding-left: 10px;
+        padding-right: 10px;
+        height: auto;
+    }
+
+    .formCont {
+        position: relative;
+        top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: auto;
+        width: 100%;
+        max-width: 850px;
+        background-color: var(--colorE);
+        border: 3px solid var(--colorB);
+        border-radius: 10px;
+    }
+
+    .formCont h3 {
+        text-align: center;
+        width: 80%;
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+
+    .formCont h4 {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .formCont p {
+        color: var(--white-font);
+        font-size: var(--body-xsm-font);
+        font-weight: 500;
+    }
+
+    .inputCont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 50px;
+
+    }
+
+    .textInputRow {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 60px;
+        padding-top: 40px;
+    }
+
+    .addressGrid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 20px;
+
+    }
+
+    .textInputItem {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItem label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItem input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItem input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .textInputItemAddress {
+        grid-row-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItemAddress label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemAddress input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItemAddress input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .serviceInputCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .serviceInputHeader {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .servicesGrid {
+        display: grid;
+        grid-auto-flow: dense;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .servicesGridItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        color: var(--white-font);
+    }
+
+    .serviceTypeGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .textInputItemMessage {
+        grid-row-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: var(--white-font);
+        padding-bottom: 30px;
+    }
+
+    .textInputItemMessage label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemMessage textarea {
+        background-color: var(--colorE);
+        border-bottom: 2px solid var(--colorA);
+        resize: none;
+    }
+
+    .textInputItemMessage textarea:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .counterCont {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .submitBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .submitBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border: 2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 200px;
+    }
+
+    .gotchaInput {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .infoCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 20px;
+        font-size: var(--body-md-font);
+    }
+
+}
+
+@media (min-width: 640px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: 750px;
+        background-color: var(--dark-bg);
+        padding-left: 40px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 250px;
+        padding-bottom: 0;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--hero-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .contentCont {
+        position: relative;
+        padding-left: 5%;
+        padding-right: 5%;
+        height: auto;
+    }
+
+    .formCont {
+        position: relative;
+        top: -200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        height: auto;
+        width: 100%;
+        max-width: 850px;
+        background-color: var(--colorE);
+        border: 3px solid var(--colorB);
+        border-radius: 10px;
+    }
+
+    .formCont h3 {
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+
+    .formCont h4 {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .formCont p {
+        color: var(--white-font);
+        font-size: var(--body-xsm-font);
+        font-weight: 500;
+    }
+
+    .inputCont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 50px;
+
+    }
+
+    .textInputRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding-top: 40px;
+    }
+
+    .addressGrid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 20px;
+
+    }
+
+    .textInputItem {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItem label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItem input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItem input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .textInputItemAddress {
+        grid-column-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItemAddress label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemAddress input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItemAddress input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .serviceInputCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .serviceInputHeader {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .servicesGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .servicesGridItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        color: var(--white-font);
+    }
+
+    .serviceTypeGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .textInputItemMessage {
+        grid-column-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: var(--white-font);
+
+    }
+
+    .textInputItemMessage label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemMessage textarea {
+        background-color: var(--colorE);
+        border-bottom: 2px solid var(--colorA);
+        resize: none;
+    }
+
+    .textInputItemMessage textarea:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .counterCont {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .submitBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .submitBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border: 2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 200px;
+    }
+
+    .gotchaInput {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .infoCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 20px;
+        font-size: var(--body-md-font);
+    }
+
+}
+
+@media (min-width: 1050px){
+    .page {
+        background-color: var(--light-bg);
+        overflow: hidden;
+    }
+
+    .heroCont {
+        height: 750px;
+        background-color: var(--dark-bg);
+        padding-left: 100px;
+    }
+
+    .heroTextCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 250px;
+        padding-bottom: 0;
+    }
+
+    .heroCont h3 {
+        font-size: var(--body-lg-font);
+        color: var(--colorA);
+        font-weight: 500;
+    }
+
+    .heroCont h1 {
+        font-size: var(--hero-font);
+        color: var(--accent-font);
+        font-weight: 700;
+    }
+
+    .contentCont {
+        position: relative;
+        padding-left: 100px;
+        padding-right: 100px;
+        height: auto;
+    }
+
+    .formCont {
+        position: relative;
+        top: -200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 90px;
+        padding-bottom: 40px;
+        height: auto;
+        width: 850px;
+        background-color: var(--colorE);
+        border: 3px solid var(--colorB);
+        border-radius: 10px;
+    }
+
+    .formCont h3 {
+        color: var(--white-font);
+        font-size: var(--body-md-font);
+        font-weight: 500;
+    }
+
+    .formCont h4 {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .formCont p {
+        color: var(--white-font);
+        font-size: var(--body-xsm-font);
+        font-weight: 500;
+    }
+
+    .inputCont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 200px;
+
+    }
+
+    .textInputRow {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 60px;
+        padding-top: 40px;
+    }
+
+    .addressGrid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        gap: 20px;
+
+    }
+
+    .textInputItem {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItem label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItem input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItem input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .textInputItemAddress {
+        grid-column-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .textInputItemAddress label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemAddress input {
+        width: 100%;
+        height: 40px;
+        border-bottom: 2px solid var(--colorA);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: var(--colorE);
+        border-radius: 0px;
+        color: var(--white-font);
+    }
+
+    .textInputItemAddress input:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .serviceInputCont {
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+
+    .serviceInputHeader {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .servicesGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .servicesGridItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+        gap: 10px;
+        color: var(--white-font);
+    }
+
+    .serviceTypeGrid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 9px;
+        grid-row-gap: 10px;
+        padding-top: 10px;
+
+    }
+
+    .textInputItemMessage {
+        grid-column-start: span 2;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: var(--white-font);
+
+    }
+
+    .textInputItemMessage label {
+        color: var(--white-font);
+        font-size: var(--body-sm-font);
+        font-weight: 500;
+    }
+
+    .textInputItemMessage textarea {
+        background-color: var(--colorE);
+        border-bottom: 2px solid var(--colorA);
+        resize: none;
+    }
+
+    .textInputItemMessage textarea:focus {
+        outline: none;
+        border-bottom: 2px solid var(--colorB);
+    }
+
+    .counterCont {
+        display: flex;
+        justify-content: end;
+        width: 100%;
+    }
+
+    .submitBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .submitBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorE);
+        color: var(--accent-font);
+        font-size: var(--body-md-font);
+        border: 2px solid var(--colorB);
+        border-radius: 10px;
+        padding: 10px 20px;
+        width: 200px;
+    }
+
+    .gotchaInput {
+        position: absolute;
+        left: -9999px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+    }
+
+    .infoCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        gap: 20px;
+        font-size: var(--body-md-font);
+    }
+
+}

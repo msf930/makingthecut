@@ -1,0 +1,344 @@
+@media (max-width: 640px){
+    .processCont {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .processContMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .processTitleCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        padding: 0 10px;
+        margin-bottom: 0px;
+
+    }
+
+    .processTitleCont h1 {
+        font-size: var(--body-lg-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processTitleCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        color: var(--dark-font);
+
+    }
+
+    .processItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        height: 150px;
+    }
+    .processItemMobile {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        height: 150px;
+    }
+
+    .processItemNumCont {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        color: var(--dark-font);
+        font-size: var(--hero-font);
+        font-weight: 500;
+        width: 90px;
+        height: 100%;
+    }
+
+    .verticalLine {
+        width: 2px;
+        height: 140px;
+        background-color: var(--colorD); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 10px;
+    }
+    .processItemTextContMobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+
+        gap: 10px;
+    }
+
+    .processItemTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 250px;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .processItemTextCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processItemTextCont p {
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: var(--dark-font);
+    }
+
+    .processBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .processBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorA);
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        border: 3px solid var(--colorD);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+}
+
+@media (min-width: 640px){
+    .processCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    .processContMobile {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        width: 100%;
+    }
+    .processTitleCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 0px;
+
+    }
+
+    .processTitleCont h1 {
+        font-size: var(--header-md-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processTitleCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        color: var(--dark-font);
+
+    }
+
+    .processItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .processItemNumCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-font);
+        font-size: var(--hero-font);
+        font-weight: 500;
+        width: 90px;
+        height: 90px;
+    }
+
+    .verticalLine {
+        width: 2px;
+        height: 110px;
+        background-color: var(--colorD); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 10px;
+    }
+
+    .processItemTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 250px;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .processItemTextCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processItemTextCont p {
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: var(--dark-font);
+    }
+
+    .processBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .processBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorA);
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        border: 3px solid var(--colorD);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+}
+
+@media (min-width: 1050px){
+    .processCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+    }
+    .processContMobile {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+        width: 100%;
+    }
+
+    .processTitleCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 0px;
+
+    }
+
+    .processTitleCont h1 {
+        font-size: var(--header-md-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processTitleCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 500;
+        color: var(--dark-font);
+
+    }
+
+    .processItem {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .processItemNumCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: var(--dark-font);
+        font-size: var(--hero-font);
+        font-weight: 500;
+        width: 90px;
+        height: 90px;
+    }
+
+    .verticalLine {
+        width: 2px;
+        height: 110px;
+        background-color: var(--colorD); /* Change to your desired color */
+        position: relative; /* Adjust positioning as needed */
+        margin-left: 10px;
+    }
+
+    .processItemTextCont {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        width: 250px;
+        margin-left: 20px;
+        gap: 10px;
+    }
+
+    .processItemTextCont h3 {
+        font-size: var(--body-md-font);
+        font-weight: 700;
+        color: var(--dark-font);
+    }
+
+    .processItemTextCont p {
+        font-size: var(--body-sm-font);
+        font-weight: 400;
+        color: var(--dark-font);
+    }
+
+    .processBtnCont {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .processBtn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--colorA);
+        color: var(--dark-font);
+        font-size: var(--body-md-font);
+        border: 3px solid var(--colorD);
+        border-radius: 10px;
+        padding: 10px 20px;
+    }
+
+}
