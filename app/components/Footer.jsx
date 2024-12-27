@@ -4,7 +4,7 @@ import styles from './Footer.module.css';
 import Link from "next/link";
 import Image from "next/image";
 
-import logoMd from '@/public/MTCLogoMd.png';
+import logoMd from '@/public/MTClogoMd.png';
 
 export default function Footer() {
     return (
