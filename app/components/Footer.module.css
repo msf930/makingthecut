@@ -18,13 +18,18 @@
         gap: 40px;
     }
 
-    .footerLogo {
+    .footerLogoCont {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
     }
 
+    .logoSpace{
+        background-color: var(--colorC);
+        padding: 20px;
+        border-radius: 10px;
+    }
     .footerContentCont {
         display: flex;
         flex-direction: column;
@@ -103,11 +108,17 @@
         gap: 40px;
     }
 
-    .footerLogo {
+    .footerLogoCont {
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .logoSpace{
+        background-color: var(--colorC);
+        padding: 20px;
+        border-radius: 10px;
     }
 
     .footerContentCont {
@@ -184,11 +195,17 @@
         padding: 40px;
     }
 
-    .footerLogo {
+    .footerLogoCont {
         width: 200px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .logoSpace{
+        background-color: var(--colorE);
+        padding: 20px;
+        border-radius: 10px;
     }
 
     .footerContentCont {

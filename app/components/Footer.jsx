@@ -10,8 +10,10 @@ export default function Footer() {
     return (
         <div className={styles.footerCont}>
             <div className={styles.footerBody}>
-                <div className={styles.footerLogo}>
-                    <Image src={logoMd} alt="logo" width={110} height={110} />
+                <div className={styles.footerLogoCont}>
+                    <div className={styles.logoSpace}>
+                        <Image src={logoMd} alt="logo" width={110} height={110} />
+                    </div>
                 </div>
                 <div className={styles.footerContentCont}>
                     <div className={styles.footerLinksCont}>
