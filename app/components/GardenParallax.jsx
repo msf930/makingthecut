@@ -3,6 +3,8 @@ import React, { useRef } from "react";
 
 import styles from "./GardenParallax.module.css";
 
+import Image from "next/image";
+
 
 
 export default function MultiLayerParallax() {
@@ -17,21 +19,21 @@ export default function MultiLayerParallax() {
     return (
         <div
             ref={ref}
-            //className="w-[calc(100% - 200px)] left-[100px] h-screen overflow-hidden relative grid place-items-center"
             className={styles.parallax}
 
         >
             <motion.div
-
-                // className="absolute inset-0 z-10"
-                className={styles.parallaxImg}
+                className={styles.parallaxImgCont}
                 style={{
-                    backgroundImage: `url(/homeGarden2.jpg)`,
-                    backgroundPosition: "center",
-                    backgroundSize: "fill",
+                    //backgroundImage: `url(/homeGarden2.jpg)`,
+                    // backgroundPosition: "top",
+                    // backgroundSize: "contain",
                     y: backgroundY,
                 }}
             >
+                <div className={styles.parallaxImg}>
+                    <Image src="/homeGarden2.jpg" alt="park with trees" fill objectFit="cover"  />
+                </div>
             </motion.div>
             <motion.div
                 className={styles.imageMotionCTA}
